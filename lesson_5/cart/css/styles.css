@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+.cart {
+	height: 400px;
+	width: 400px;
+	margin: 30px auto;
+	display: flex;
+	flex-flow: row wrap-reverse;
+	align-content: flex-start ;
+	background-color: antiquewhite;
+}
+
+.itemPurchased {
+	height: 100px;
+	width: 100px;;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+}
+
+.text {
+	font-size: larger;
+	color: white;
+}
